@@ -1,0 +1,60 @@
+# ==============================
+# RNA-seq raw sequencing data
+# ==============================
+data/raw/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+
+# ==============================
+# Alignment files
+# ==============================
+*.sam
+*.bam
+*.bai
+
+# ==============================
+# Reference genome / annotation
+# ==============================
+*.fa
+*.fasta
+*.fa.gz
+*.fna
+*.gtf
+*.gtf.gz
+
+# ==============================
+# Analysis results
+# ==============================
+results/
+
+# ==============================
+# Logs
+# ==============================
+logs/
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.tmp.*
+*.temp
+
+# ==============================
+# R temporary/session files
+# ==============================
+.Rhistory
+.RData
+.Rproj.user/
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+# HISAT2 genome index
+data/reference/hisat2_index/
+*.ht2
+*.ht2l
